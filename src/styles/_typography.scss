@@ -1,0 +1,108 @@
+// • 100 — Thin / Extra Light / Ultra Light
+// • 200 — Extra Light / Ultra Light / Thin
+// • 300 — Light
+// • 400 — Normal / Regular (default)
+// • 500 — Medium
+// • 600 — Semi Bold / Demi Bold
+// • 700 — Bold
+// • 800 — Extra Bold / Ultra Bold / Black
+// • 900 — Black / Heavy / Extra Black
+
+.tp1 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  line-height: 111%;
+  letter-spacing: 2.88px;
+}
+
+.tp1-tab {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 1.6px;
+  letter-spacing: 1.6px;
+}
+
+.tp1-mob {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  line-height: 111%;
+  letter-spacing: 1.44px;
+}
+
+.tp2 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 133%;
+  letter-spacing: 0.96px;
+}
+
+.tp3 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 2.56px;
+}
+
+.tp4 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+.tp4-mask {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 2.56px;
+}
+.tp5 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 171%;
+  letter-spacing: 0px;
+}
+.tp5-bold {
+  font-family: "JetBrains Mono", monospace;
+  font-family: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  line-height: 171%;
+  letter-spacing: 2.24px;
+}
+
+.tp6 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 133%;
+  letter-spacing: 1.92px;
+}
+
+.tp6-mix {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 133%;
+  letter-spacing: 1.92px;
+
+}
+
+.tp7 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 133%;
+  letter-spacing: 0%;
+}

@@ -1,0 +1,8 @@
+@use "./styles/variables" as *;
+@use "./styles/globals" as *;
+@use "./styles/mixins" as *;
+@use "./styles/typography" as *;
+
+* {
+    background-color: $neutral950;
+}
