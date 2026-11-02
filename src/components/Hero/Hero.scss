@@ -1,0 +1,36 @@
+@use "../../styles/typography" as *;
+@use "../../styles/variables" as *;
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    gap: 0.75rem;
+    &__title {
+        @extend .tp1-mob;
+        color: white;
+
+        &--green {
+            color: $lime500;
+        }
+    }
+
+    &__tagline {
+        @extend .tp6;
+        color: $neutral300;
+    }
+
+    hr {
+        margin: 1.5rem 0 1rem 0;
+        background-color: $neutral700;
+        border: none;
+        height: 1px;
+    }
+
+    .opID {
+        display: flex;
+        @extend .tp6;
+        color: $neutral400;
+        justify-content: space-between;
+    }
+}
